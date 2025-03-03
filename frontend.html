@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare Services</title>
+    <link rel="stylesheet" href="frontend.css"> <!-- Link to external CSS file -->
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Healthcare Services</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#ask-ai-doctor">Ask AI-Doctor</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home" class="hero">
+        <h2>Your Health, Our Priority</h2>
+        <p>We provide top-quality healthcare services to ensure your well-being. Our team of experienced professionals is here to support you at every step.</p>
+        <a href="#services" class="btn">Explore Services</a>
+    </section>
+    
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>At Healthcare Services, we are dedicated to providing comprehensive and high-quality medical care. Our mission is to offer personalized healthcare solutions using the latest technology and expertise.</p>
+    </section>
+    
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>General Checkups</li>
+            <li>Emergency Care</li>
+            <li>Specialist Consultations</li>
+            <li>Diagnostic Services</li>
+            <li>Physiotherapy & Rehabilitation</li>
+            <li>24/7 Online Consultations</li>
+            <li>Mental Health Support</li>
+        </ul>
+    </section>
+    
+    <section id="ask-ai-doctor" class="ai-doctor">
+        <h2>Ask AI-Doctor</h2>
+        <p>Upload your medical reports and consult with our AI system.</p>
+        <form id="aiDoctorForm">
+            <label for="file">Medical Report:</label>
+            <input type="file" id="file" accept="image/*,.pdf" required>
+            <label for="symptoms">Describe Symptoms:</label>
+            <textarea id="symptoms" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <h3>Chat with AI-Doctor</h3>
+        <input type="text" id="chat-input" placeholder="Ask about diseases...">
+        <button onclick="askAIDoctor()">Ask</button>
+        <div id="chat-response"></div>
+    </section>
+    
+    <section id="testimonials" class="testimonials">
+        <h2>What Our Patients Say</h2>
+        <p>"The best healthcare service I have ever experienced! The staff was very professional and friendly." - John Doe</p>
+    </section>
+    
+    <section id="faq" class="faq">
+        <h2>Frequently Asked Questions</h2>
+        <h3>How can I book an appointment?</h3>
+        <p>You can book an appointment through our website.</p>
+    </section>
+    
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <script src="frontend.js"></script> <!-- Link to JavaScript file -->
+</body>
+</html>
