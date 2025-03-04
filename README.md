@@ -28,14 +28,15 @@ This project integrates Machine Learning (TensorFlow/Keras) with a user-friendly
 ├── README.md  # Documentation (this file)
 
 🔧 Setup Instructions
-1️⃣ Clone the repository
+1️⃣ Clone the repository: 
 git clone https://github.com/jainnVartika/AIHealthCare_vj.git
+
 cd AIHealthCare_vj
 
-2️⃣ Install dependencies
+2️⃣ Install dependencies : 
 pip install flask numpy tensorflow
 
-3️⃣ Run the Flask server
+3️⃣ Run the Flask server : 
 python app.py
 
 4️⃣ Open frontend.html in a browser to start interacting with the chatbot!
