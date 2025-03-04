@@ -2,20 +2,20 @@
 A Flask-based AI chatbot that provides health-related assistance by analyzing user queries. 
 This project integrates Machine Learning (TensorFlow/Keras) with a user-friendly frontend (HTML, CSS, JavaScript) to deliver a seamless healthcare chatbot experience.
 
-🚀 Features
-✅ AI-powered chatbot for medical inquiries
+🚀 Features:
+ ✅ AI-powered chatbot for medical inquiries
 ✅ User-friendly web interface
 ✅ Flask API for backend communication
 ✅ Deep Learning model for response generation
 ✅ Real-time chat UI with interactive features
 
-🛠️ Tech Stack
-🔹 Backend: Python, Flask, TensorFlow/Keras
+🛠️ Tech Stack: 
+ 🔹 Backend: Python, Flask, TensorFlow/Keras
 🔹 Frontend: HTML, CSS, JavaScript
 🔹 API Calls: Fetch API (JavaScript)
 🔹 Model: Pre-trained medical chatbot model (.h5)
 
-📂 Project Structure
+📂 Project Structure:
 
 📦 Medical-Chatbot
 ├── 📂 static
@@ -27,8 +27,8 @@ This project integrates Machine Learning (TensorFlow/Keras) with a user-friendly
 ├── app.py  # Flask backend for chatbot API
 ├── README.md  # Documentation (this file)
 
-🔧 Setup Instructions
-1️⃣ Clone the repository: 
+🔧 Setup Instructions:
+ 1️⃣ Clone the repository: 
 git clone https://github.com/jainnVartika/AIHealthCare_vj.git
 
 cd AIHealthCare_vj
@@ -41,7 +41,8 @@ python app.py
 
 4️⃣ Open frontend.html in a browser to start interacting with the chatbot!
 
-🤝 Contributors
-👩‍💻 Vartika Jain
+🤝 Contributors : 
+ 👩‍💻 Vartika Jain
 👨‍💻 Rishabh Pandey
+
 This project is a step toward AI-powered healthcare solutions. If you like it, feel free to ⭐ the repo!
